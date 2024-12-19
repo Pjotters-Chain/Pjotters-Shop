@@ -8,40 +8,49 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>Pjotters-Shop</h1>
-            <p>De beste gratis apps voor jouw iPhone</p>
-        </div>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Pjotters-Shop</h1>
+            </div>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="pjotters-app.html">Pjotters-App</a></li>
+                <li><a href="apps.html">Apps</a></li>
                 <li><a href="upload-your-app.html">Upload your App</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
     </header>
+<section class="upload-app">
+    <h2>Upload je App</h2>
+    <p>Wil je dat jouw app beschikbaar is in de Pjotters-Shop? Vul het onderstaande formulier in om je app te uploaden.</p>
 
-    <section class="upload-app">
-        <h2>Upload je App</h2>
-        <p>Wil je dat jouw app beschikbaar is in de Pjotters-Shop? Vul het onderstaande formulier in om je app te uploaden.</p>
-        
-        <form action="#" method="POST" enctype="multipart/form-data">
-            <label for="app-name">Naam van je App:</label>
-            <input type="text" id="app-name" name="app-name" required>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <label for="app-name">Naam van je App:</label>
+        <input type="text" id="app-name" name="app-name" required>
 
-            <label for="app-description">Beschrijving:</label>
-            <textarea id="app-description" name="app-description" required></textarea>
+        <label for="app-description">Beschrijving:</label>
+        <textarea id="app-description" name="app-description" required></textarea>
 
-            <label for="app-file">Upload je App (bijv. .ipa bestand):</label>
-            <input type="file" id="app-file" name="app-file" accept=".ipa" required>
+        <label for="app-icon">App Icoon (PNG of JPG, max 1MB):</label>
+        <input type="file" id="app-icon" name="app-icon" accept=".png,.jpg,.jpeg" required>
 
-            <button type="submit" class="cta-button">Upload App</button>
-        </form>
-    </section>
+        <label for="app-screenshots">App Screenshots (PNG of JPG, max 5 afbeeldingen):</label>
+        <input type="file" id="app-screenshots" name="app-screenshots" accept=".png,.jpg,.jpeg" multiple required>
 
-    <footer>
-        <p>&copy; 2024 Pjotters-Shop. Alle rechten voorbehouden.</p>
-    </footer>
+        <label for="app-file">Upload je App (bijv. .ipa bestand):</label>
+        <input type="file" id="app-file" name="app-file" accept=".ipa" required>
+
+        <button type="submit" class="cta-button">Upload App</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Pjotters-Shop. Alle rechten voorbehouden.</p>
+</footer>
 </body>
 </html>
