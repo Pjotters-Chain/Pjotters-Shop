@@ -34,26 +34,27 @@
 
             <div class="app-grid">
                 <div class="app-item">
-                    <img src="images/app1-icon.png" alt="Productiviteitstools Icon">
-                    <h2>Productiviteitstools</h2>
-                    <p>Verbeter je dagelijkse taken met onze efficiënte tools.</p>
+                    <img src="1.png" alt="App 1 Icon">
+                    <h2>Pjotters Planner</h2>
+                    <p>Organiseer je dag met onze efficiënte planningsapp.</p>
                     <a href="#" class="cta-button">Download</a>
                 </div>
                 <div class="app-item">
-                    <img src="images/app2-icon.png" alt="Entertainmentfuncties Icon">
-                    <h2>Entertainmentfuncties</h2>
-                    <p>Geniet van een breed scala aan entertainment opties.</p>
+                    <img src="2.png" alt="App 2 Icon">
+                    <h2>Pjotters Fitness</h2>
+                    <p>Houd je gezondheid bij en verbeter je conditie.</p>
                     <a href="#" class="cta-button">Download</a>
                 </div>
                 <div class="app-item">
-                    <img src="images/app3-icon.png" alt="Gezondheidsbewaking Icon">
-                    <h2>Gezondheidsbewaking</h2>
-                    <p>Houd je gezondheid in de gaten met onze geavanceerde app.</p>
+                    <img src="logo.jpg" alt="Pjotters-Shop Logo">
+                    <h2>Pjotters-Shop App</h2>
+                    <p>Ontdek en download al onze apps in één handige app.</p>
                     <a href="#" class="cta-button">Download</a>
                 </div>
             </div>
         </section>
     </main>
+
     <footer>
         <div class="footer-content">
             <div class="footer-section">
