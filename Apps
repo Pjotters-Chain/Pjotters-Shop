@@ -3,39 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pjotters-App - Pjotters-Shop</title>
+    <title>Apps - Pjotters-Shop</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>Pjotters-Shop</h1>
-            <p>De beste gratis apps voor jouw iPhone</p>
-        </div>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Pjotters-Shop</h1>
+            </div>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="pjotters-app.html">Pjotters-App</a></li>
+                <li><a href="apps.html">Apps</a></li>
                 <li><a href="upload-your-app.html">Upload your App</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
     </header>
 
-    <section class="pjotters-apps">
-        <h2>De Pjotters-Apps</h2>
-        <p>De Pjotters-App is dé app voor al je dagelijkse taken! Het biedt handige functies zoals:</p>
-        <ul>
-            <li>App 1: Productiviteitstools</li>
-            <li>App 2: Entertainmentfuncties</li>
-            <li>App 3: Gezondheidsbewaking</li>
-        </ul>
-        <p>Download de app gratis uit onze winkel en krijg toegang tot alles wat je nodig hebt voor een betere gebruikerservaring op je iPhone!</p>
-        <a href="#download" class="cta-button">Download de Pjotters-App</a>
-    </section>
+    <main>
+        <section class="apps-overview">
+            <h1>Onze Apps</h1>
+            <p>Ontdek onze collectie van geweldige apps!</p>
 
+            <div class="app-grid">
+                <div class="app-item">
+                    <img src="images/app1-icon.png" alt="Productiviteitstools Icon">
+                    <h2>Productiviteitstools</h2>
+                    <p>Verbeter je dagelijkse taken met onze efficiënte tools.</p>
+                    <a href="#" class="cta-button">Download</a>
+                </div>
+                <div class="app-item">
+                    <img src="images/app2-icon.png" alt="Entertainmentfuncties Icon">
+                    <h2>Entertainmentfuncties</h2>
+                    <p>Geniet van een breed scala aan entertainment opties.</p>
+                    <a href="#" class="cta-button">Download</a>
+                </div>
+                <div class="app-item">
+                    <img src="images/app3-icon.png" alt="Gezondheidsbewaking Icon">
+                    <h2>Gezondheidsbewaking</h2>
+                    <p>Houd je gezondheid in de gaten met onze geavanceerde app.</p>
+                    <a href="#" class="cta-button">Download</a>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Pjotters-Shop. Alle rechten voorbehouden.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Over Ons</h3>
+                <p>Pjotters-Shop biedt de beste gratis apps voor jouw iPhone.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="apps.html">Apps</a></li>
+                    <li><a href="upload-your-app.html">Upload your App</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Volg Ons</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pjotters-Shop. Alle rechten voorbehouden.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
